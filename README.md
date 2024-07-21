@@ -13,6 +13,7 @@ This project is a web-based dashboard built with Dash and Plotly to visualize pr
 - **Data Download**: Export filtered data as a Shapefile.
 
 ## Project Structure
+```text
 .
 ├── app.py # Main application script
 ├── callbacks.py # Callback functions for interactivity
