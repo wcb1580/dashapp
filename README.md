@@ -31,8 +31,9 @@ This project is a web-based dashboard built with Dash and Plotly to visualize pr
 │ └── ... # Other regions
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
-
+```
 ### Prerequisites
 
 - Python 3.7 or higher
 - `pip` package manager
+
