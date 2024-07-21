@@ -174,8 +174,8 @@ def update_map_and_pie_chart(n_clicks, start_date, end_date, selected_types, ana
     return fig_map, fig_pie, fig_bar, filtered_gdf.to_json(),False,None
 
 @app.callback(
-    Output('download_shp', 'data'),
-    [Input('download_button', 'n_clicks')],
+    Output('download-shp', 'data'),
+    [Input('download-button', 'n_clicks')],
     [State('gdf-data', 'data')],
     prevent_initial_call=True
 )
@@ -192,3 +192,4 @@ def down_data(n_clicks, gdf_json):
 # Run the app
 if __name__ == '__main__':
     app.run_server(debug=True)
+
