@@ -1,0 +1,135 @@
+#body{
+    background-color: antiquewhite;
+}
+
+#title{
+    margin-left: 14px;
+    margin-top: 35px;
+}
+
+.tooltip-button {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #8D493A; 
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 320px;
+    margin-top: 0px;
+}
+
+/* Style for the tooltip */
+.tooltip-inner {
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+#side_bar{
+    background-color: #DFD3C3;
+    border-radius: 10px;
+}
+
+#first_container,#second_container,#third_container,#fourth_container{
+    margin-top: 20px;
+}
+#second_container{
+    margin-top: 20px;
+}
+
+#analysis label{
+    margin-left: 0px;
+    margin-right: 60px;
+}
+#search-button, #download_button {
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+    min-height: 40px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 50%;
+    will-change: transform;
+}
+
+#search-button:disabled, #download_button:disabled {
+    pointer-events: none;
+}
+
+#search-button:hover, #download_button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+#search-button:active, #download_button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+
+#buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+#search-button {
+    margin-right: 10px;
+}
+
+#download_button {
+    margin-left: 10px; }
+
+#content-column{
+    background-color: '#DFD3C3';
+    flex-direction: column;
+    align-items: stretch;
+    padding:0;
+}
+#auckland-map {
+    background-color: antiquewhite;
+    height: 50vh;
+    width: 100%;
+    margin:auto; 
+}
+#chart-wrapper{
+    width:100%;
+}
+#bar-chart {
+    width: 50%;
+    height: 50vh;
+    background-color: antiquewhite;
+    display: inline-flex;
+    margin: auto;
+}
+#pie-chart{
+    width:50%;
+    height:50vh;}
+
+#title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
