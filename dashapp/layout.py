@@ -56,14 +56,14 @@ layout = dbc.Container([
                     start_date_placeholder_text="Start Period",
                     end_date_placeholder_text="End Period",
                     display_format='YYYY-MM-DD'
-                )],id = 'first_container'),
+                )],id = 'first-container'),
                 html.Div([
                 html.Label("Select Region"),
                 dcc.Dropdown(
                     id='region-selector',
                     options=extract_region(),
                     value='Bucklands Beach'
-                )],id = 'second_container'),
+                )],id = 'second-container'),
                 html.Div([
                 html.Label("Select Land Types:"),
                 dcc.Dropdown(
@@ -71,7 +71,7 @@ layout = dbc.Container([
                     options=[],
                     value=[],
                     multi=True
-                )],id = 'third_container'),
+                )],id = 'third-container'),
                 html.Div([
                 
                 html.Label("Select Analysis Types:"),
@@ -91,20 +91,20 @@ layout = dbc.Container([
                     target="tooltip-target",
                     placement="right"
                 ),
-                ], id='fourth_container'),
+                ], id='fourth-container'),
                 html.Div([
                     html.Button("Search", id='search-button'),
-                    html.Button("Download Data", id="download_button")
+                    html.Button("Download Data", id="download-button")
                 ], style={'display': 'flex', 'justify-content': 'space-between'}),
-                dcc.Download(id="download_shp")
+                dcc.Download(id="download-shp")
                 
 
             ]),
             
-        ], id = 'side_bar',width=3),
+        ], id = 'side-bar',width=3),
         dbc.Col([
             dcc.Loading(
-                id='loading_auckland_map',
+                id='loading-auckland_map',
                 children=dcc.Graph(id='auckland-map', figure=initial_fig_map),
                 
             ),
@@ -114,7 +114,7 @@ layout = dbc.Container([
                              
                     dcc.Graph(id='bar-chart', figure=initial_fig_pie, style={'display': 'inline-block', 'width': '50%'})
                 ]),
-                id='loading_pie_chart'
+                id='loading-pie-chart'
             )
         ], id='content-column')
     ])
