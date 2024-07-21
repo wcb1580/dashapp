@@ -5,7 +5,7 @@ This project is a web-based dashboard built with Dash and Plotly to visualize pr
 ## Features
 
 - **Interactive Map**: Visualize property data on an interactive map.
-- **Date Range Selector**: Filter data based on selected date ranges.
+- **Date Range Selector**: Filter parcel data based on their development date range.
 - **Region Selector**: Choose different regions of Auckland to view specific data. (Only avaliable for Bucklands Beach and Highland Park)
 - **Land Type Selector**: Filter data by land types.
 - **Analysis Types**: Select between different analysis types (Land Type, Owner Number).
